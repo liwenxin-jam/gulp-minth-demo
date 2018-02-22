@@ -1,14 +1,4 @@
----
-title:  gulp实现js、css、img合并和压缩
-author: 黎文欣
-tags: 工具
-categories:
-  - gulp
-blogexcerpt: 文字摘要
-date: 2017-05-06 22:15:39
-thumbnail:
----
-人都是喜欢偷懒的，而偷懒也是进步的源泉。没有人喜欢做机械化的工作，都想着一键生成或搞掂。之前写过一篇关于借助gulp实现图片压缩功能和合并雪碧图，而这篇主要讲的是gulp实现js、css、img合并和压缩。
+>人都是喜欢偷懒的，而偷懒也是进步的源泉。没有人喜欢做机械化的工作，都想着一键生成或搞掂。之前写过一篇关于借助gulp实现图片压缩功能和合并雪碧图，而这篇主要讲的是gulp实现js、css、img合并和压缩。
 
 - 因为是基于gulp，肯定是需要安装gulp环境，至于是安装的全局环境还是局部依赖，就看个人喜好。
 ```js
@@ -122,8 +112,6 @@ gulp  //省略task名称，默认会去查找default任务
 gulp clean //清理打包文件夹
 gulp default  //有监听各种文件夹内容变化
 ```
-
-如果需要上面栗子源码可以从本人github[gulp-minth-demo](https://github.com/liwenxin-jam/gulp-minth-demo "gulp-minth-demo")上下载，注意相关依赖包没有上传，需要自己下载再测试。
 
 - 参考文献
 1、[gulp 实现 js、css,img 合并和压缩](http://blog.csdn.net/u013063153/article/details/52628471)
